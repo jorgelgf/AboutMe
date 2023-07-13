@@ -3,13 +3,18 @@ import styled from "styled-components";
 export const Container = styled.header`
   nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem;
     .jorge {
+      letter-spacing: 3px;
+      padding: 0.5rem 1rem;
       display: none;
       @media (max-width: 999px) {
         display: flex;
+        color: 1px 1.5px 1px #ff12ff;
+        font-weight: 600;
+        letter-spacing: 8px;
       }
     }
 
