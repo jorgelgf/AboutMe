@@ -6,15 +6,20 @@ export const Container = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    
+    
     .jorge {
       letter-spacing: 3px;
       padding: 0.5rem 1rem;
       display: none;
+      font-weight: 400;
       @media (max-width: 999px) {
+        font-size:1rem;
         display: flex;
         color: 1px 1.5px 1px #ff12ff;
-        font-weight: 600;
+        font-weight: 500;
         letter-spacing: 8px;
+        border-color
       }
     }
 
@@ -24,7 +29,7 @@ export const Container = styled.header`
       cursor: pointer;
 
       :hover {
-        color: #355cd8;
+        color: #bd00bd;
         transition: all 0.4s;
       }
     }
@@ -46,9 +51,31 @@ export const MobileMenu = styled.div`
 `;
 export const Logo = styled.div`
   color: white;
-  background-color: black;
-  font-weight: 600;
-  padding: 1rem;
+
+  display: flex;
+  .logo {
+    font-weight: 600;
+    padding: 1rem;
+    margin: 0;
+    background-color: black;
+    transition: all 0.2s;
+    :hover {
+      background-color: #bd00bd;
+      color: black;
+    }
+  }
+  .name {
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    letter-spacing: 15px;
+    transition: all 0.2s;
+    display: hidden;
+    :hover {
+      display: flex;
+    }
+  }
+
   @media (max-width: 999px) {
     display: none;
   }
@@ -68,7 +95,9 @@ export const Alink = styled.div`
   cursor: pointer;
   cursor: pointer;
   transition: all 0.4s;
+  border-bottom: 1px solid transparent;
   :hover {
-    color: #355cd8;
+    color: #bd00bd;
+    border-bottom: 1px solid #bd00bd;
   }
 `;

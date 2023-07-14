@@ -5,5 +5,9 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  @media (max-height: 720px) {
+    //border: solid black 10px;
+    height: auto;
+  }
 `;

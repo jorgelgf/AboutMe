@@ -4,14 +4,19 @@ import Layout from "../../components/Layout";
 import Sections from "../../components/sections";
 import jog2 from "../../_img/jog2.jpg";
 import styled from "styled-components";
+import Footer from "../../components/footer/indes";
 const Home = () => {
   return (
     <Layout>
       <Header />
       <Sections>
         <Imagem src={jog2} alt="" />
-        <Text>MINHA FRASE</Text>
+        <Text2>
+          <h1>DESENVOLVEDOR WEB</h1>
+          "Buscando unir pessoas e negócios através das tecnologias"
+        </Text2>
       </Sections>
+      <Footer />
     </Layout>
   );
 };
@@ -20,18 +25,32 @@ export default Home;
 
 const Imagem = styled.img`
   width: auto;
-  border: solid #2c2c2c 5px;
-  margin-top: 3rem;
+  box-shadow: 6px 5px 1px #bd00bd;
+  margin-top: 5rem;
+
   @media (max-width: 999px) {
-    box-shadow: 9px 7px 5px #bd00bd;
     border: none;
+    margin-top: 4rem;
   }
   @media (max-width: 540px) {
     width: 80%;
-    border-radius: 5%;
+    margin-top: 0;
   }
 `;
-const Text = styled.article`
-  margin-top: 3rem;
-  margin-left: 2rem;
+
+const Text2 = styled.article`
+  //border: 1px solid black;
+  width: auto;
+  max-height: 30vh;
+  margin-top: 10rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  @media (max-width: 999px) {
+    align-items: center;
+    margin: 6vh 0 0 0;
+    padding: 0;
+    max-width: 60%;
+  }
 `;
