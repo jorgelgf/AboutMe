@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
+
   nav {
     display: flex;
     justify-content: space-between;

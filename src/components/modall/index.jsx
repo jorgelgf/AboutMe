@@ -3,7 +3,14 @@ import * as S from "./styles";
 const Modall = () => {
   return (
     <>
-      <S.Container>MODAL ATIVO</S.Container>
+      <S.Container>
+        <section>
+          <div>trabalhos</div>
+          <div>sobre mim</div>
+          <div>redes sociais</div>
+          <div>contatos</div>
+        </section>
+      </S.Container>
     </>
   );
 };
