@@ -16,14 +16,14 @@ const Home = () => {
         </Sections>
         <Sections>
           <S.Text>
-            <p>
+            <div>
               <div>
                 <WriteOnScreen
                   text="Minha missão 
-é unir negócios e pessoas através das tecnologias"
+é unir negócios e divessoas através das tecnologias"
                 />
               </div>
-            </p>
+            </div>
           </S.Text>
         </Sections>
         <Footer />
@@ -31,31 +31,5 @@ const Home = () => {
     </>
   );
 };
-/*
-    <>
-      <S.Container>
-        <Header />
 
-        <Sections>
-          <S.Imagem src={jog2} alt="" />
-        </Sections>
-        <Sections>
-          <S.Text>
-            <p>
-              <div>
-                <WriteOnScreen
-                  text="Minha missão 
-é unir negócios e pessoas através das tecnologias"
-                />
-              </div>
-            </p>
-          </S.Text>
-        </Sections>
-        <Footer />
-      </S.Container>
-    </>
-/>
-
-
-*/
 export default Home;

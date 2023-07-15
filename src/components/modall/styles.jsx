@@ -41,9 +41,9 @@ export const Container = styled.div`
     left: 7vw;
   }
 
-  animation: animeLeft 0.4s forwards;
-  transform: translateX(-6px);
-  @keyframes animeLeft {
+  animation: animeY 0.4s forwards;
+  transform: translateY(-6px);
+  @keyframes animeY {
     to {
       opacity: 1;
       transform: initial;

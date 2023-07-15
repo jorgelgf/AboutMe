@@ -4,10 +4,11 @@ export const Container = styled.footer`
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  height: 3rem;
   p {
+    height: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
   }
 `;

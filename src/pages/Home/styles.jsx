@@ -6,6 +6,15 @@ export const Container = styled.div`
   flex-direction: column;
   display: flex;
   justify-content: start;
+
+  animation: animeLeft 0.6s forwards;
+  transform: translateX(-6px);
+  @keyframes animeLeft {
+    to {
+      opacity: 1;
+      transform: initial;
+    }
+  }
 `;
 
 export const Imagem = styled.img`
@@ -35,7 +44,7 @@ export const Text = styled.article`
   transition: all 0.3s;
 
   //texto com animação de digitação
-  p {
+  div {
     margin: 0;
     padding: 0;
 
@@ -75,7 +84,7 @@ export const Text = styled.article`
   @media (max-width: 999px) {
     align-items: center;
     margin: 6vh 0 0 0;
-    padding: 0;
+    padding: 0;s
     min-width: 100%;
   }
   @media (max-width: 300px) {

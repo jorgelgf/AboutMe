@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import * as S from "./styles";
 import Modall from "../modall";
+import { useNavigate } from "react-router";
 
 const Header = () => {
   const [rotate, setRotate] = useState(false);
   const [itens, setItens] = useState(false);
+  const navigate = useNavigate();
   let h,
     colorClose,
     rot1,
@@ -67,7 +69,10 @@ const Header = () => {
               </S.Alink>
             </li>
             <li>
-              <S.Alink href="/"> sobre mim</S.Alink>
+              <S.Alink href="/" onClick={() => navigate("/aboutMe")}>
+                {" "}
+                sobre mim
+              </S.Alink>
             </li>
 
             <li>
