@@ -1,26 +1,26 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-
+  width: 100%;
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    
-    
+    //background-color: red;
+
     .jorge {
       letter-spacing: 3px;
       padding: 0.5rem 1rem;
       display: none;
       font-weight: 400;
+
       @media (max-width: 999px) {
-        font-size:1rem;
+        font-size: 2vw;
         display: flex;
         color: 1px 1.5px 1px #ff12ff;
         font-weight: 500;
         letter-spacing: 8px;
-        border-color
       }
     }
 
@@ -37,6 +37,7 @@ export const Container = styled.header`
   }
 `;
 export const MobileMenu = styled.div`
+  z-index: 3;
   cursor: pointer;
   display: none;
   div {

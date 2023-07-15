@@ -6,7 +6,7 @@ const Header = () => {
   const [rotate, setRotate] = useState(false);
   const [itens, setItens] = useState(false);
   let h,
-    boderColor,
+    colorClose,
     rot1,
     close = "",
     rot2 = "";
@@ -15,7 +15,7 @@ const Header = () => {
     rot1 = "rotate(-45deg) translate(-8px, 8px) ";
     rot2 = "rotate(45deg) translate(-5px, -7px) ";
     h = "0";
-    boderColor = "#f01a1a";
+    colorClose = "#f01a1a";
     close = "Fechar";
   }
   const handleClick = () => {
@@ -45,7 +45,7 @@ const Header = () => {
               style={{
                 transform: rot1,
                 transition: "all .2s",
-                backgroundColor: boderColor,
+                backgroundColor: colorClose,
               }}
             ></div>
             <div style={{ opacity: h }} className="line2"></div>
@@ -54,7 +54,7 @@ const Header = () => {
               style={{
                 transform: rot2,
                 transition: "all .2s",
-                backgroundColor: boderColor,
+                backgroundColor: colorClose,
               }}
               onClick={() => setRotate(!rotate)}
             ></div>
@@ -69,9 +69,7 @@ const Header = () => {
             <li>
               <S.Alink href="/"> sobre mim</S.Alink>
             </li>
-            <li>
-              <S.Alink href="/"> redes sociais</S.Alink>
-            </li>
+
             <li>
               <S.Alink href="/"> contatos</S.Alink>
             </li>
