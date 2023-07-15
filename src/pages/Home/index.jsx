@@ -20,7 +20,7 @@ const Home = () => {
               <div>
                 <WriteOnScreen
                   text="Minha missão 
-é unir negócios e divessoas através das tecnologias"
+é unir negócios e pessoas através das tecnologias"
                 />
               </div>
             </div>
