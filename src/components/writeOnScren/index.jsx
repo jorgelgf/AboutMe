@@ -16,7 +16,7 @@ const WriteOnScreen = (props) => {
       setText(text.slice(0, i + 1));
       setTimeout(() => {
         writeOnScreen(text, i + 1);
-      }, 100);
+      }, 12);
     }
   };
 
