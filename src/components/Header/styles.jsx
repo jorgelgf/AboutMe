@@ -30,7 +30,7 @@ export const Container = styled.header`
         letter-spacing: 8px;
       }
       @media (max-height: 800px) {
-        font-size: 100px;
+        font-size: 30px;
         padding: 1rem;
       }
       @media (max-width: 400px) {
