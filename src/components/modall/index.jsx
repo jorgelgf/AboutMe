@@ -8,7 +8,7 @@ const Modall = () => {
     <>
       <S.Container>
         <section>
-          <div onClick={() => navigate("/works")}>trabalhos</div>
+          <div onClick={() => navigate("/works")}>projetos</div>
           <div onClick={() => navigate("/aboutMe")}>sobre mim</div>
           <div>contatos</div>
         </section>

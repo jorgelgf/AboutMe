@@ -36,15 +36,13 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 999px) {
-    top: 3vh;
-
+  @media (min-width: 960px) {
+    top: 6vh;
     width: 86vw;
     left: 7vw;
   }
-  @media (min-width: 960px) {
-    top: 5vh;
-
+  @media (min-height: 600px) {
+    top: 10vh;
     width: 86vw;
     left: 7vw;
   }

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   width: 100%;
-
   nav {
     display: flex;
     justify-content: space-between;
@@ -133,5 +132,10 @@ export const HeaderB = styled.header`
   :hover {
     background-color: #bd00bd;
     color: white;
+    box-shadow: 6px 5px 1px black;
+  }
+
+  span {
+    margin-left: 10px;
   }
 `;

@@ -63,9 +63,9 @@ const Header = () => {
           </S.MobileMenu>
           <S.NavList>
             <li>
-              <S.Alink href="/" onClick={() => alert("oi")}>
+              <S.Alink href="/" onClick={() => navigate("/works")}>
                 {" "}
-                trabalhos
+                projetos
               </S.Alink>
             </li>
             <li>
