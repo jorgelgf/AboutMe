@@ -10,12 +10,13 @@ const Home = () => {
     <>
       <S.Container>
         <Header />
-
         <Sections>
           <S.Imagem src={jog2} alt="" />
         </Sections>
+
         <Sections>
           <S.Text>
+            <br />
             <div>
               <div>
                 <WriteOnScreen

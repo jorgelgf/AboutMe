@@ -3,7 +3,7 @@ import * as S from "./styles";
 const Footer = () => {
   return (
     <S.Container>
-      <p>© 2023</p>{" "}
+      <p>Desenvolvido por Jorge Gurgel © 2023</p>{" "}
     </S.Container>
   );
 };

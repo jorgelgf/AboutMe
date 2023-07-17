@@ -22,6 +22,7 @@ export const Container = styled.div`
     justify-content: space-between;
     div {
       cursor: pointer;
+      font-size: 2vh;
       width: 100%;
       display: flex;
       height: 100%;
@@ -34,9 +35,43 @@ export const Container = styled.div`
       }
     }
   }
-  @media (max-width: 999px) {
-    top: 7vh;
 
+  @media (max-width: 999px) {
+    top: 3vh;
+
+    width: 86vw;
+    left: 7vw;
+  }
+  @media (min-width: 960px) {
+    top: 5vh;
+
+    width: 86vw;
+    left: 7vw;
+  }
+  @media (max-width: 912px) {
+    top: 5vh;
+
+    width: 86vw;
+    left: 7vw;
+  }
+  @media (max-width: 820px) {
+    top: 6vh;
+
+    width: 86vw;
+    left: 7vw;
+  }
+  @media (max-width: 540px) {
+    top: 10vh;
+    width: 86vw;
+    left: 7vw;
+  }
+  @media (max-width: 500px) {
+    top: 10vh;
+    width: 86vw;
+    left: 7vw;
+  }
+  @media (max-width: 425px) {
+    top: 7vh;
     width: 86vw;
     left: 7vw;
   }

@@ -7,9 +7,9 @@ export const Container = styled.div`
   display: flex;
   justify-content: start;
 
-  animation: animeLeft 0.6s forwards;
-  transform: translateX(-6px);
-  @keyframes animeLeft {
+  animation: animeY 0.5s forwards;
+  transform: translateY(-3px);
+  @keyframes animeY {
     to {
       opacity: 1;
       transform: initial;
@@ -42,11 +42,19 @@ export const Text = styled.article`
   align-items: center;
   justify-content: center;
   transition: all 0.3s;
+  margin-top: 1rem;
+  width: 100%;
 
   //texto com animação de digitação
   div {
-    margin: 0;
-    padding: 0;
+    @media(min-width:980px){
+      font-size: 35px;
+    }
+    @media(min-height:1946px){
+      font-size: 45px;
+      padding:1rem
+    }
+
 
     div {
       display: flex;
@@ -83,7 +91,7 @@ export const Text = styled.article`
   }
   @media (max-width: 999px) {
     align-items: center;
-    margin: 6vh 0 0 0;
+    margin: 50px 0 0 0;
     padding: 0;s
     min-width: 100%;
   }

@@ -1,12 +1,11 @@
 import React from "react";
 import * as S from "./styles";
-import { useNavigate } from "react-router-dom";
+import HeaderBack from "../../components/Header/HeaderBack";
 
 const AboutMe = () => {
-  const navigate = useNavigate();
   return (
     <S.Container>
-      <div onClick={() => navigate("/")}>Back</div>
+      <HeaderBack />
     </S.Container>
   );
 };

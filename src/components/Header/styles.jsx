@@ -2,13 +2,18 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   width: 100%;
+
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    //background-color: red;
+    font-size: 1.5vw;
 
+    @media (min-width: 980px) {
+      font-size: 25px;
+    }
+    //background-color: red;
     .jorge {
       letter-spacing: 3px;
       padding: 0.5rem 1rem;
@@ -16,11 +21,21 @@ export const Container = styled.header`
       font-weight: 400;
 
       @media (max-width: 999px) {
-        font-size: 2vw;
+        padding: 1rem;
+
+        font-size: 3vw;
         display: flex;
         color: 1px 1.5px 1px #ff12ff;
         font-weight: 500;
         letter-spacing: 8px;
+      }
+      @media (max-height: 800px) {
+        font-size: 100px;
+        padding: 1rem;
+      }
+      @media (max-width: 400px) {
+        font-size: 10px;
+        padding: 1rem;
       }
     }
 
@@ -37,12 +52,12 @@ export const Container = styled.header`
   }
 `;
 export const MobileMenu = styled.div`
-  z-index: 3;
+  z-index: 10;
   cursor: pointer;
   display: none;
   div {
-    width: 32px;
-    height: 2px;
+    width: 52px;
+    height: 3px;
     margin: 8px;
     background-color: #6e6e6e;
   }
@@ -101,5 +116,22 @@ export const Alink = styled.div`
   :hover {
     color: #bd00bd;
     border-bottom: 1px solid #bd00bd;
+  }
+`;
+
+//componente HeaderBack
+
+export const HeaderB = styled.header`
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0;
+  padding: 1rem;
+  font-size: 3vh;
+  transition: all 0.4s;
+  :hover {
+    background-color: #bd00bd;
+    color: white;
   }
 `;

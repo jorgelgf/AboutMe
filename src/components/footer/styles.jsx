@@ -11,4 +11,9 @@ export const Container = styled.footer`
     align-items: start;
     justify-content: center;
   }
+
+  @media (min-height: 1946px) {
+    font-size: 45px;
+    padding: 2rem;
+  }
 `;
