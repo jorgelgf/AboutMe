@@ -35,6 +35,11 @@ export const Container = styled.div`
       }
     }
   }
+  @media (min-width: 960px) {
+    top: 6vh;
+    width: 86vw;
+    left: 7vw;
+  }
 
   @media (min-width: 960px) {
     top: 6vh;
@@ -67,6 +72,9 @@ export const Container = styled.div`
     top: 10vh;
     width: 86vw;
     left: 7vw;
+  }
+  @media (min-width: 432px) {
+    top: 8vh;
   }
   @media (max-width: 425px) {
     top: 7vh;

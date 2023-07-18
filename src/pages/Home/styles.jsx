@@ -15,6 +15,10 @@ export const Container = styled.div`
       transform: initial;
     }
   }
+
+  @media (min-width: 432px) {
+    height: 92vh;
+  }
 `;
 
 export const Imagem = styled.img`

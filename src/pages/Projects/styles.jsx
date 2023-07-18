@@ -6,4 +6,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  @media (min-width: 432px) {
+    height: 92vh;
+  }
 `;
