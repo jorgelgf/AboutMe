@@ -7,7 +7,7 @@ const HeaderBack = () => {
   const navigate = useNavigate();
   return (
     <S.HeaderB onClick={() => navigate("/")}>
-      <MdOutlineKeyboardReturn /> <span>back</span>
+      <MdOutlineKeyboardReturn /> <span>Back</span>
     </S.HeaderB>
   );
 };

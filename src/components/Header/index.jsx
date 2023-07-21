@@ -65,18 +65,18 @@ const Header = () => {
             <li>
               <S.Alink href="/" onClick={() => navigate("/works")}>
                 {" "}
-                projetos
+                Projetos
               </S.Alink>
             </li>
             <li>
               <S.Alink href="/" onClick={() => navigate("/aboutMe")}>
                 {" "}
-                sobre mim
+                Sobre mim
               </S.Alink>
             </li>
 
             <li>
-              <S.Alink href="/"> contatos</S.Alink>
+              <S.Alink href="/"> Contatos</S.Alink>
             </li>
           </S.NavList>
         </nav>

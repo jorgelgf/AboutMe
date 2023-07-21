@@ -50,6 +50,7 @@ export const Links = styled.div`
     }
 
     a {
+      border: solid white 1px;
       padding: 3px;
       display: flex;
       align-items: center;

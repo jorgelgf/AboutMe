@@ -4,7 +4,7 @@ export const Container = styled.footer`
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 3rem;
+  height: 2rem;
   p {
     height: 100%;
     display: flex;
@@ -12,8 +12,10 @@ export const Container = styled.footer`
     justify-content: center;
   }
 
-  @media (min-height: 1946px) {
-    font-size: 45px;
-    padding: 2rem;
+  @media (max-width: 765px) {
+    position: relative;
+  }
+  @media (max-width: 750px) {
+    position: absolute;
   }
 `;
