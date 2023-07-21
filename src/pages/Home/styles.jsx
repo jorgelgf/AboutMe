@@ -52,7 +52,7 @@ export const Text = styled.article`
   //texto com animação de digitação
   div {
     @media(min-width:980px){
-      font-size: 35px;
+      font-size: 25px;
     }
     @media(min-height:1946px){
       font-size: 45px;
